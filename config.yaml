@@ -62,10 +62,10 @@ proxies:
     plugin-opts: {}
   - name: My SS Proxy 2
     type: ss
-    server: 143.110.166.28
-    port: 10818
+    server: 159.89.205.19
+    port: 40379
     cipher: chacha20-ietf-poly1305
-    password: NJcWAWTEWFOB9de5jtsG5m
+    password: iDmeSwWChKWZmBTGJScA3q
     udp: true
     plugin: ''
     plugin-opts: {}
