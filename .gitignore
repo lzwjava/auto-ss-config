@@ -1,1 +1,15 @@
 .DS_Store
+
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE-specific files
+.idea/
