@@ -34,6 +34,9 @@ for ss_url in ss_urls:
 
 # Read existing config.yaml
 yaml = YAML()
+yaml.preserve_quotes = True
+yaml.indent(mapping=2, sequence=4, offset=2)
+
 with open('config.yaml', 'r') as file:
     config = yaml.load(file)
 

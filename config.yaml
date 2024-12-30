@@ -51,26 +51,24 @@ url-rewrite:
   - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 
 proxies:
-  - name: "My SS Proxy 1"
+  - name: My SS Proxy 1
     type: ss
     server: 188.166.213.47
     port: 29093
     cipher: chacha20-ietf-poly1305
-    password: "XBgTYyGE0wMEylXsjcf9dn"
+    password: XBgTYyGE0wMEylXsjcf9dn
     udp: true
     plugin: ""
     plugin-opts: {}
-
-  - name: "My SS Proxy 2"
+  - name: My SS Proxy 2
     type: ss
     server: 143.110.166.28
     port: 10818
     cipher: chacha20-ietf-poly1305
-    password: "NJcWAWTEWFOB9de5jtsG5m"
+    password: NJcWAWTEWFOB9de5jtsG5m
     udp: true
     plugin: ""
     plugin-opts: {}
-
 proxy-groups:
   - name: "Proxy"
     type: select
