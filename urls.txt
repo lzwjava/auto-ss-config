@@ -1,4 +1,0 @@
-https://storage.googleapis.com/lzwjava1/ssconfig
-
-https://storage.googleapis.com/lzwjava1/config.yaml
-
