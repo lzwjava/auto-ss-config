@@ -53,12 +53,12 @@ url-rewrite:
 proxies:
   - name: My SS Proxy 1
     type: ss
-    server: 188.166.213.47
-    port: 29093
+    server: 134.209.235.228
+    port: 15199
     cipher: chacha20-ietf-poly1305
-    password: XBgTYyGE0wMEylXsjcf9dn
+    password: T69c4x8yBYgHidms9moTGe
     udp: true
-    plugin: ""
+    plugin: ''
     plugin-opts: {}
   - name: My SS Proxy 2
     type: ss
@@ -67,7 +67,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: NJcWAWTEWFOB9de5jtsG5m
     udp: true
-    plugin: ""
+    plugin: ''
     plugin-opts: {}
 proxy-groups:
   - name: "Proxy"
