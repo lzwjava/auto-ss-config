@@ -11,7 +11,7 @@ setup(
     entry_points={
         'console_scripts': [
             'update-config=auto_ss_config.update_config:update_config',
-            'decode-ss-url=auto_ss_config.decode_ss_url:update_config_yaml',
+            'decode-ss-url=auto_ss_config.update_config:update_config_yaml',
         ],
     },
     author='Zhiwei Li',
