@@ -1,4 +1,4 @@
-import yaml
+from ruamel.yaml import YAML
 import base64
 import re
 
@@ -33,8 +33,9 @@ for ss_url in ss_urls:
             proxies.append(proxy_config)
 
 # Read existing config.yaml
+yaml = YAML()
 with open('config.yaml', 'r') as file:
-    config = yaml.safe_load(file)
+    config = yaml.load(file)
 
 # Update proxies in config.yaml
 config['proxies'] = [
@@ -54,6 +55,6 @@ config['proxies'] = [
 
 # Write updated config.yaml
 with open('config.yaml', 'w') as file:
-    yaml.safe_dump(config, file, default_flow_style=False)
+    yaml.dump(config, file)
 
 print("config.yaml has been updated with the new Shadowsocks proxies.")
