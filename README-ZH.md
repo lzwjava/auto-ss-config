@@ -15,7 +15,7 @@
 
 ## 文件
 
-- `app_config.yaml` - 应用程序配置（存储桶名称，SS URL）
+- `app_config_tmp.yaml` - 应用程序配置（存储桶名称，SS URL）
 - `clash_config_tmp.yaml` - 临时 Clash 配置文件
 - `upload_configs.py` - 生成 Clash 配置并将配置上传到 Google Cloud Storage 的脚本
 - `requirements.txt` - Python 依赖项

@@ -15,7 +15,7 @@ A tool to automatically generate and upload Shadowsocks or Clash subscription UR
 
 ## Files
 
-- `app_config.yaml` - Application configuration (bucket name, SS URLs)
+- `app_config_tmp.yaml` - Application configuration (bucket name, SS URLs)
 - `clash_config_tmp.yaml` - Temporary Clash configuration file
 - `upload_configs.py` - Script to generate Clash config and upload configs to Google Cloud Storage
 - `requirements.txt` - Python dependencies
